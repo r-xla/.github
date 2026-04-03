@@ -26,22 +26,3 @@ Some supporting repositories:
 | [**benchmarks**](https://github.com/r-xla/benchmarks) | Performance comparisons against PyTorch and R torch |
 | [**actions**](https://github.com/r-xla/actions) | Shared GitHub Actions and CI workflows |
 | [**pjrt-builds**](https://github.com/r-xla/pjrt-builds) | PJRT builds for Windows |
-
-## Installation
-
-Install from [r-universe](https://r-xla.r-universe.dev):
-
-```r
-install.packages("anvil", repos = c("https://r-xla.r-universe.dev", "https://cloud.r-project.org"))
-```
-
-Or install the development versions from GitHub:
-
-```r
-# install.packages("pak")
-pak::pak("r-xla/anvil")
-```
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/r-xla/.github/blob/main/CONTRIBUTING.md) for development setup and workflow.
