@@ -4,15 +4,17 @@ When contributing to r-xla and when working with coding AGENTS, it is important 
 
 ```
 <parent-dir>/
+  anvil/
+  claude-config/
   pjrt/
   stablehlo/
-  anvil/
   tengen/
   xlamisc/
-  claude-config/
 ```
 
 This is, because each repository's AGENTS.md loads @../claude-config/CLAUDE.md for some common information about r-xla.
-Note that claude-config is also a skill marketplace (WIP), so you might want to register it with your coding tool.
-In addition to these r-xla skills, repositories can also have their own, project-specific, skills.
+Furthermore, because the packages are interdependent, it's useful for the LLM to be able to easily read relevant
+code across the repositories.
 
+Note that claude-config is also a skill marketplace (WIP), so you might want to register it with your coding tool.
+In addition to these r-xla skills, repositories can also have their own, project-specific, skills (also WIP).
