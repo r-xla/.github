@@ -3,7 +3,7 @@
 r-xla brings just-in-time compilation and automatic differentiation to R.
 Write standard R code, compile it to optimized machine code, and run it on CPU or GPU.
 It consists of many packages that are developed in tandem.
-The end-user facing package is [anvil][https://github.com/r-xla/anvil].
+The end-user facing package is [anvil](https://github.com/r-xla/anvil).
 
 ## Packages
 
