@@ -13,7 +13,7 @@ When contributing to r-xla and when working with coding AGENTS, it is important 
 
 ```
 <parent-dir>/
-  anvil/
+  anvl/
   claude-config/
   pjrt/
   stablehlo/
