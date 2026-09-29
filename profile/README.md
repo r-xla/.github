@@ -14,7 +14,6 @@ The core packages are:
 | [**anvl**](https://github.com/r-xla/anvl) | User-facing API: JIT compilation + autodiff |
 | [**stablehlo**](https://github.com/r-xla/stablehlo) | IR layer: create and manipulate [StableHLO](https://github.com/openxla/stablehlo) programs |
 | [**pjrt**](https://github.com/r-xla/pjrt) | Runtime: compile and execute on CPU/CUDA/Metal via [PJRT](https://github.com/openxla/xla/tree/main/xla/pjrt) |
-| [**tengen**](https://github.com/r-xla/tengen) | Tensor generics |
 | [**xlamisc**](https://github.com/r-xla/xlamisc) | Shared utilities |
 
 Some supporting repositories:
